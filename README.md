@@ -9,6 +9,8 @@
 
 目前CLIP + LDA的代码已经上线，之后有时间将再做一个end2end的版本
 
+直接查看这个colab <a href="https://colab.research.google.com/github/LC1332/simple-face-recognition/blob/main/notebook/minimal_pipeline.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 ## 人脸正规化
 
 ```python
