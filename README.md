@@ -22,6 +22,15 @@ cropped_face = faces[0]
 cv2.imwrite(save_name, cropped_face)
 ```
 
+crop后的face是这样的
+
+<p align="center">
+        <img src= "https://github.com/LC1332/simple-face-recognition/blob/main/figures/cropped_face.png" height="400">
+</p>
+
+对于人脸识别来说，crop更紧一些有可能是更好的。但是因为我们这个是和CeleHQ对齐的，还有一些人脸生成的任务相关，所以我们不做更紧致的crop了。
+
+
 ## 抽取CLIP特征
 
 这里使用openai/clip-vit-base-patch16模型，我们后面会基于这个tuning一个版本
